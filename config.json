@@ -1,0 +1,13 @@
+{
+  "DESCRIPTION": "请替换为您在topon后台的应用id、广告位id和appKey",
+  "configure": {
+    "initOptions": {
+      "appId": "appid1234567",
+      "appKey": "appkey1234567"
+    },
+    "placementOptions": {
+      "placementId": "plid1234567",
+      "containerId": "topon-placement-plid1234567"
+    }
+  }
+}

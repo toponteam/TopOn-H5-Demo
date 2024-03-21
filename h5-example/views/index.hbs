@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="https://h5.anythinktech.com/major/{{sdkVersion}}/index.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <section class="section-container">
+        <!-- 广告渲染容器，容器ID默认格式 topon-placement-广告位ID，务必确保容器ID的广告位ID部分与initPlacement中传入的广告位ID一致 -->
+        <div
+          class="topon-placement-container"
+          id="{{containerId}}"
+        ></div>
+        <div id="js-action-sheet" class="action-sheet">
+          <header class="header">
+            以下按钮仅用于流程演示，其并非sdk本身的一部分
+          </header>
+          <div class="action-item" onclick="loadAd()">
+            <div class="btn">加载广告</div>
+          </div>
+          <div class="action-item" onclick="adIsReady()">
+            <div class="btn">广告isReady?</div>
+          </div>
+          <div class="action-item" onclick="getAd()">
+            <div class="btn">获取广告</div>
+          </div>
+          <div class="action-item" onclick="showAd()">
+            <div class="btn">展示广告</div>
+          </div>
+          <div class="action-item" onclick="cleanCache()">
+            <div class="btn">清空缓存</div>
+          </div>
+          <div class="action-item" onclick="cleanLogger()">
+            <div class="btn">清空日志</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logs-section">
+        <header class="logs-header">
+          <span>日志列表</span>
+        </header>
+        <ul id="logs-list"></ul>
+      </section>
+
+      <article>
+        <h2 class="sc-1v3c8lr-3 iBLcO">Temple Run 2</h2>
+        <div class="sc-1v3c8lr-6 kXVnFE">
+          <span class="sc-1v3c8lr-7 bQMpMx">Imangi Studios</span> /
+          <span class="sc-1v3c8lr-8 bbPKoC">4.3</span> /
+          <span class="sc-1v3c8lr-8 bbPKoC">1,984,287 votes</span>
+        </div>
+        <div class="sc-1v3c8lr-9 jXgCKW">
+          <p>
+            Temple Run 2, developed by Imangi, is an infinite runner where the
+            player must escape from his enemy and avoid all the obstacles and
+            traps that are found along the way. Traverse cliffs, forests and
+            even mines, and help this fearless treasure hunter escape with the
+            gold idol. But hurry up! The evil monkey monsters are chasing you!
+            Do you dare to join this exciting adrenaline-charged adventure?
+          </p>
+
+          <h3>How to play Temple Run 2 online?</h3>
+          <h4>Keyboard</h4>
+          <ul>
+            <li><p>Move - AD or Left/Right arrow keys</p></li>
+            <li><p>Jump - W or Up arrow key</p></li>
+            <li><p>Slide down- S or Down arrow key</p></li>
+          </ul>
+
+          <h4>Mobile</h4>
+          <ul>
+            <li><p>Move and turn - swipe left / right</p></li>
+            <li><p>Jump - swipe up</p></li>
+            <li><p>Slide - swipe down</p></li>
+          </ul>
+
+          <h3>Who created Temple Run 2?</h3>
+          <p>
+            Temple Run 2 is the second installment of the mega-hit Temple Run.
+            It was created by Imangi. Play their legendary endless runner games
+            <a
+              onclick="window.navigateTo('/en/g/temple-run-2-holi-festival');return false;"
+              href="https://poki.com/en/g/temple-run-2-holi-festival"
+              >Temple Run 2: Holi Festival</a
+            >,
+            <a
+              onclick="window.navigateTo('/en/g/temple-run-2-frozen-shadows');return false;"
+              href="https://poki.com/en/g/temple-run-2-frozen-shadows"
+              >Temple Run 2: Frozen Shadows</a
+            >, and
+            <a
+              onclick="window.navigateTo('/en/g/temple-run-2-jungle-fall');return false;"
+              href="https://poki.com/en/g/temple-run-2-jungle-fall"
+              >Temple Run 2: Jungle Fall</a
+            >
+            on Poki!
+          </p>
+
+          <h3>How do you complete Temple Run 2?</h3>
+          <p>
+            Collect free coins, jump a second before you near the edges, upgrade
+            your character stats, time your jumps well over double-jump
+            obstacles, and make sure to complete stage objectives.
+          </p>
+
+          <h3>How can I play Temple Run 2 on PC?</h3>
+          <p>
+            You can play Temple Run 2 on your browser without installing or
+            downloading for free on Poki.
+          </p>
+
+          <h3>Does Temple Run 2 end?</h3>
+          <p>
+            No. As the game is an endless running game, there is no end to the
+            temple; the player plays until the character collides into a large
+            obstacle, falls into the water, or is overtaken by the demon
+            monkeys.
+          </p>
+
+          <h3>Is Temple Run 2 an online game or an offline game?</h3>
+          <p>You need an internet connection to play Temple Run 2 on Poki.</p>
+
+          <h3>What is the monster in Temple Run 2?</h3>
+          <p>
+            Evil Demon Monkeys (or devil monkey) are the main antagonists of
+            Temple Run and its sequel, Temple Run 2. They chase the player in
+            their quest to retrieve the golden idol.
+          </p>
+
+          <h3>What is the power meter in Temple Run 2?</h3>
+          <p>
+            Collect coins and fill the power meter in Temple Run 2 to unlock a
+            temporary speed and invincibility boost.
+          </p>
+
+          <h3>How do you power up in Temple Run 2?</h3>
+          <p>
+            Open "Abilities" and tap on a power you wish to improve, such as
+            Shield Duration, Coin Magnet, and Boost Distance.
+          </p>
+        </div>
+      </article>
+    </div>
+    {{!-- 为了便于集成，通过server.js注入全局变量configure（包含appId\appKey等参数）以供business.js使用，实际使用中configure变量建议在business.js文件中，实际场景请根据自身需要设计组织代码 --}}
+    <script type="text/javascript">
+      var configure = JSON.parse("{{configure}}".replace(/&quot;/g, '"'))
+    </script>
+    <!-- 有dom操作，请确保在dom加载完成再执行js -->
+    <script type="text/javascript" async src="./business.js"></script>
+  </body>
+</html>

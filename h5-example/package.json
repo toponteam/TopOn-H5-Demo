@@ -1,0 +1,26 @@
+{
+  "name": "topon-h5-example",
+  "version": "4.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "ip": "^1.1.8",
+    "opener": "^1.5.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "eslintConfig": {},
+  "description": "### 快速启动",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.toponad.com:topon-front-end/san-hua-demo.git"
+  },
+  "keywords": [],
+  "author": "yuan ou",
+  "license": "ISC"
+}
