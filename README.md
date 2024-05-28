@@ -49,4 +49,4 @@ npm start -- --host http://www.example.com --port 3000
 
 ### 集成文档
 
-详见[文档](https://h5-docs.toponad.com/docs/sdk-access).
+详见[文档](https://help.toponad.com/cn/docs/SPBcrl).
